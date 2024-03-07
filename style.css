@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #EBDACC;
 }
 
 .roboto-light {
@@ -122,6 +123,78 @@ body {
   gap: 27px;
   border-radius: 8px;
   background: #8F542E;
+}
+
+.about {
+  background-color: #EBDACC;
+  padding-left: 104px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  width: 100%;
+  height: 590px;
+  object-fit: cover;
+}
+
+.title-about{
+  text-transform: uppercase;
+  padding-top: 12px;
+  font-family: 'Cormorant Garamond';
+  width: 255px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 40px;
+  background-image: linear-gradient(to bottom, #EBDACC 50%, #FBC9A8 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  height: 36px;
+}
+
+.about-image {
+  width: 352px;
+  height: 340.41px;
+  object-fit: cover;
+  border-radius: 8px;
+  justify-self: center;
+  align-self: center; 
+}
+
+.about-paragraph{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  width: auto;
+  padding: 20px 0 0 20px;
+}
+
+.talk-button-props{
+  background-color: #8F542E;
+  width: 282px;
+  height: 57px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.talk-button{
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 20px;
 }
 
 @media screen and (max-width: 850px) {
