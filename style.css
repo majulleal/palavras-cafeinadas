@@ -13,12 +13,13 @@ body {
 
 .navbar {
   font-size: small;
-  background-color: #291505;
+  background-color: #57290B;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center; 
   padding: 10px 200px;
+  height: 100px;
 }
 
 .navbar a {
@@ -43,6 +44,18 @@ body {
   height: 85px;
   width: auto;
   margin-top: 7px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 43px;
+  height: 54px;
 }
 
 .navbar img.logo-telefone {
@@ -224,9 +237,8 @@ body {
   margin-left: 43.5%;
 }
 
-.grid{
+.container_carrossel{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -280,7 +292,6 @@ body {
   background-color: #F0F0F0;
   border-radius: 8px;
   position: absolute;
-  left: 20%;
 }
 
 .carrossel-2 img{
@@ -319,6 +330,94 @@ body {
   margin-right: 5px;
 }
 
+
+.carrossel-3{
+  width: 345px;
+  height: 400px;
+  background-color: #F0F0F0;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.carrossel-3 img{
+  width: 314px;
+  height: 277px;
+  object-fit: cover;
+  border-radius: 8px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.título-cake{
+  position: absolute;
+  top: 73%;
+  left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #1F0C00;
+  
+}
+
+.descrip-cake{
+  position: absolute;
+  top: 83%;
+  left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #1F0C00;
+  letter-spacing: 0.28px;
+  margin-right: 5px;
+}
+
+.carrossel-4{
+  width: 345px;
+  height: 400px;
+  background-color: #F0F0F0;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.carrossel-4 img{
+  width: 314px;
+  height: 277px;
+  object-fit: cover;
+  border-radius: 8px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.título-ice{
+  position: absolute;
+  top: 73%;
+  left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #1F0C00;
+  
+}
+
+.descrip-ice{
+  position: absolute;
+  top: 83%;
+  left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #1F0C00;
+  letter-spacing: 0.28px;
+  margin-right: 5px;
+=======
 .contact-us-props{
   padding: 120px;
   display: flex;
@@ -485,6 +584,7 @@ footer {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
+
 }
 
 @media screen and (max-width: 850px) {
