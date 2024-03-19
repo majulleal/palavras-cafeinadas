@@ -228,7 +228,7 @@ body {
 .título-carrossel{
   font-family: 'Cormorant Garamont';
   font-style: normal;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.8px;
   text-transform: uppercase;
@@ -678,22 +678,77 @@ p:not(.title) {
   font-size: 14px;
 }
 
-@media screen and (max-width: 850px) {
-  .navbar :not(.logo-text) {
-      display: none;
-  }
 
-  .logo-text img.logo-telefone {
+  @media screen and (max-width: 390px) {
+    
+    .navbar{
+       width: 100%;
+    }
+    
+    .título-header {
+        width: 50px;
+    }
+  
+    .subtítulo-header {
+        width:auto;
+    }
+  
+    .about-image {
+        display: none;
+    }
+  
+    .logo-text img.logo-telefone {
+      display: block;
       height: 30px;
       width: auto;
+      margin: 0 auto;
       margin-right: 5px;
-  }
+    }
+    
+    .container-about{
+      margin-left: 80px;
+    }
+    
+    .button-layout{
+      width: 194px;
+      padding: 10px;
+      height: 34px;
+      font-size: 16px;
+      font-weight: 800;
+    }
+    
+    .título-carrossel{
+      width: auto;
+    }
+    
+    .input-form {
+      width: auto;
+    }
+    
+    .info-contact{
+      display: none;
+    }
+    
+    .form-contact{
+      width: auto;
+    }
+    
+    .título-carrossel{
+      font-size: 20px;
+    }
+    
+    .title-about.title-contact{
+      margin-left: 100px;
+      font-size: 30px;
+      width: 200px;
+    }
 
-.logo-text img.logo-telefone {
-  display: block;
-  height: 30px;
-  width: auto;
-  margin: 0 auto;
-  margin-right: 5px;
-}
-}
+    .button-layout{
+      height: 50px;
+      width: 280px;
+    }
+
+    .navbar{
+      width: auto;
+    }
+  }
