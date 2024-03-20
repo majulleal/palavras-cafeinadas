@@ -54,6 +54,11 @@ body {
   align-items: center;
 }
 
+.logo_text{
+  font-family: 'Cormorant Garamond';
+  font-size: 18px;
+}
+
 .logo img{
   width: 43px;
   height: 54px;
@@ -71,6 +76,8 @@ body {
 
 .navbar a, .navbar .right {
   padding: 10px 0;
+  font-family: 'Cormorant Garamond';
+  font-size: 18px;
 }
 
 .header {
@@ -250,7 +257,7 @@ body {
   height: 3px;
   background-color: #B2784A;
   bottom: -5px;
-  left: 10px;
+  left: 20px;
   border-radius: 5px;
 }
 
@@ -532,10 +539,10 @@ body {
 
 .text-contact-end{
   font-family: 'Cormorant Garamond';
-  width: 300px;
+  width: 260px;
   height: 39px;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 200;
   color: #F0F0F0;
 }
 
@@ -719,10 +726,9 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
-p:not(.title) {
+.about-paragraph{
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
 }
 
 
