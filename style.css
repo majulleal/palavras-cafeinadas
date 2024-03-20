@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #F5F3ED;
@@ -23,9 +23,10 @@ body {
 }
 
 .navbar a {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond';
   color: #f2f2f2;
   text-decoration: none;
+  font-size: 18px;
   position: relative;
 }
 
@@ -34,7 +35,7 @@ body {
   position: absolute;
   width: 70%;
   height: 3px;
-  background-color: #8F542E;
+  background-color: #B2784A;
   bottom: -5px;
   left: 15%;
   border-radius: 5px;
@@ -65,6 +66,7 @@ body {
   margin-right: 2px;
   display: inline-block;
   vertical-align: middle;
+  font-family: 'Cormorant Garamond';
 }
 
 .navbar a, .navbar .right {
@@ -80,8 +82,7 @@ body {
 .header img {
   width: 100%;
   height: 590px;
-  object-fit: cover;
-  /* aqui falta colocar um background para ficar mais escuro*/
+  object-fit: cover; 
 }
 
 .título-header {
@@ -148,6 +149,11 @@ body {
   object-fit: cover;
 }
 
+.container-about{
+  margin-left: 40px;
+}
+
+
 .title-about{
   text-transform: uppercase;
   padding-top: 12px;
@@ -174,7 +180,7 @@ body {
   align-self: center; 
 }
 
-.about-paragraph{
+.paragraphs{
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -229,12 +235,23 @@ body {
   font-family: 'Cormorant Garamont';
   font-style: normal;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.8px;
   text-transform: uppercase;
   color:#F0F0F0;
   margin-top: 3%;
   margin-left: 43.5%;
+  position: relative;
+}
+.título-carrossel h1:after {
+  content: '';
+  position: absolute;
+  width: 15%;
+  height: 3px;
+  background-color: #B2784A;
+  bottom: -5px;
+  left: 10px;
+  border-radius: 5px;
 }
 
 .container_carrossel{
@@ -472,13 +489,25 @@ body {
 
 .container-contact{
   display: flex;
-  align-items: center;
+}
+
+.container-contact img{
+  width: 24px;
+  height: 31px;
+  margin-right: 10px;
 }
 
 .text-contact{
   color: #F0F0F0;
   font-size: 18px;
   font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-contact p{
+  margin-left: 10px;
+  margin-top: 8px;
+  align-items: center;
 }
 
 .line-contact{
@@ -510,6 +539,7 @@ body {
   color: #F0F0F0;
 }
 
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -525,14 +555,21 @@ body {
 }
 
 .text-form{
+  font-family: "Roboto", sans-serif;
   width: 74px;
   height: 30px;
   font-weight: 700;
   font-size: 24px;
 }
 
-.text-form.props{
+.text-form.props1{
   margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-form.props2{
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
 }
 
 .input-form{
@@ -585,9 +622,19 @@ footer {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
-
 }
 
+.container-contact-redes{
+  display: flex;
+  margin-top: 15px;
+}
+
+.container-contact-redes p{
+  margin-left: 10px;
+  margin-top: 8px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
 
 /* Carousel */
 
